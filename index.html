@@ -10,14 +10,27 @@
     <main>
         <section id="login">
             <div id="imagem">
-                foto
+                
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a). Faça login para acessar sua conta.<br>
-                Aqui você pode fazer seus pedidos e acompanhar os processos</p>
+                <p>Seja bem-vindo(a). Faça login para acessar sua conta.
+                Aqui você pode fazer e acompanhar o seu pedido.</p>
                 <form action="login.php" method="post">
-                    
+                <p>
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" placeholder="seu e-mail">
+                </p>
+                <p>
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" placeholder="sua senha">
+                </p>
+                <p>
+                    <input type="button" value="Entrar" id="botaoentrar"><br>
+                    <input type="button" value="Esqueci a senha" id="botaosenha">
+                </p>
+
+
                 </form>
             </div>
 

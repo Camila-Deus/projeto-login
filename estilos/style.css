@@ -8,3 +8,112 @@ Azul Médio: #A3C3D9
 Amarelo: #FCDE9C
 Rosa: #C47559
 */
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #A3C3D9;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh; 
+    width: 100vw;
+}
+
+section#login{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+}
+
+section#login > div#imagem{
+    display: block;
+    background: #A3C3D9 url(../imagens/donuts.jpg) no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    height: 200px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+/* main > section > div#formulario{
+    background-color: white;
+    width: 40vw;
+    padding-top: 5px;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+    padding: 15px;
+    padding-top: 2px;
+
+}
+
+main > section > div > h1{
+    text-align: center;
+}
+
+#imagem{
+    background-color: aqua;
+    width: 40vw;
+    height: 30vh;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#iemail{
+    width: 35vw;
+    background-color: #FCDE9C;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    
+}
+
+
+
+#isenha{
+    width: 35vw;
+    background-color: #FCDE9C;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#botaoentrar{
+    width: 35vw;
+    background-color:#C47559;
+    border:none;
+    padding: 12px;
+    color: white;
+    width: 40vw;
+    border-radius: 10px;
+
+}
+
+#botaosenha{
+    
+    background-color: white;
+    border-color: #C47559;
+    padding: 12px;
+    color: #C47559;
+    width: 40vw;
+    border-radius: 10px;
+
+} */
