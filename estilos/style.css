@@ -2,7 +2,7 @@
 
 /* 
 Paleta de Cores
-Azul Claro: #E9ECF5
+Azul Claro: #C47559
 Azul: #CCD6EB
 Azul Médio: #A3C3D9
 Amarelo: #FCDE9C
@@ -34,11 +34,14 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -63,21 +66,42 @@ div#formulario > h1{
 
 div#formulario > p{
     font-size: 0.8em;
+    margin: 20px 0px;
 }
 
 form > div.campo {
     background-color: #FCDE9C;
+    border: 2px solid #FCDE9C;;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px ;
 
 }
 
-div.campo >  label {
+div.campo > label {
     display: none;
 
+}
+
+div.campo > span{
+    color:#c06f52;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: white;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-13px);
 }
 
 form > input[type=submit] {

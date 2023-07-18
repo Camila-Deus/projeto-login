@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*CONFIG PARA TABLET*/
 
     body{
         background-image: linear-gradient( to top, #FCDE9C,#A3C3D9);
@@ -9,6 +9,7 @@
 
     section#login {
         width: 80vw;
+        height: 310px;
     }
 
     section#login > div#imagem{
@@ -22,9 +23,14 @@
         width: 70%;
 
     }
+
+    div#formulario > p{
+       
+        margin: 20px 0px;
+    }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*CONF DE DESKTOP */
 
     body{
         background-image: linear-gradient( to top, #FCDE9C,#A3C3D9);
@@ -32,6 +38,7 @@
 
     section#login {
         width: 950px;
+        height: 330px;
     }
 
     section#login > div#imagem{
@@ -50,6 +57,7 @@
     }
 
     div#formulario > p{
-        font-size: 1.1em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
